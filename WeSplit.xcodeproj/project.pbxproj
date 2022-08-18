@@ -14,6 +14,9 @@
 		C94A435F28A53D4700D2B2AA /* WeSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A435E28A53D4700D2B2AA /* WeSplitTests.swift */; };
 		C94A436928A53D4800D2B2AA /* WeSplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A436828A53D4800D2B2AA /* WeSplitUITests.swift */; };
 		C94A436B28A53D4800D2B2AA /* WeSplitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A436A28A53D4800D2B2AA /* WeSplitUITestsLaunchTests.swift */; };
+		C9F542EB28A548B600AFFC91 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F542EA28A548B600AFFC91 /* TextField.swift */; };
+		C9F542ED28A54BD500AFFC91 /* ViewInLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F542EC28A54BD500AFFC91 /* ViewInLoop.swift */; };
+		C9F542EF28A5534E00AFFC91 /* TextFieldModifying.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F542EE28A5534E00AFFC91 /* TextFieldModifying.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		C94A436428A53D4800D2B2AA /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94A436828A53D4800D2B2AA /* WeSplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITests.swift; sourceTree = "<group>"; };
 		C94A436A28A53D4800D2B2AA /* WeSplitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9F542EA28A548B600AFFC91 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		C9F542EC28A54BD500AFFC91 /* ViewInLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInLoop.swift; sourceTree = "<group>"; };
+		C9F542EE28A5534E00AFFC91 /* TextFieldModifying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifying.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				C94A434D28A53D4100D2B2AA /* WeSplitApp.swift */,
 				C94A434F28A53D4100D2B2AA /* ContentView.swift */,
+				C9F542EA28A548B600AFFC91 /* TextField.swift */,
+				C9F542EE28A5534E00AFFC91 /* TextFieldModifying.swift */,
+				C9F542EC28A54BD500AFFC91 /* ViewInLoop.swift */,
 				C94A435128A53D4700D2B2AA /* Assets.xcassets */,
 				C94A435328A53D4700D2B2AA /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F542EB28A548B600AFFC91 /* TextField.swift in Sources */,
 				C94A435028A53D4100D2B2AA /* ContentView.swift in Sources */,
 				C94A434E28A53D4100D2B2AA /* WeSplitApp.swift in Sources */,
+				C9F542ED28A54BD500AFFC91 /* ViewInLoop.swift in Sources */,
+				C9F542EF28A5534E00AFFC91 /* TextFieldModifying.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
